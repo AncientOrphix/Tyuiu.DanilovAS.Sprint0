@@ -38,7 +38,7 @@ namespace Tyuiu.DanilovAS.Sprint0.Task7V0
             Console.WriteLine("Значение элементов массива №2");
             for(int i = 0; i<arrayNums2.Length; i++)
             {
-                Console.WriteLine(arrayNums2[i] + ", ");
+                Console.Write(arrayNums2[i] + ", ");
             }
 
             Console.WriteLine();
@@ -52,7 +52,7 @@ namespace Tyuiu.DanilovAS.Sprint0.Task7V0
                 Console.WriteLine("Сумма элементов массива равна:");
                 for (int i = 0; i < resultArray.Length; i++)
                 {
-                    Console.WriteLine(resultArray[i] + ", ");
+                    Console.Write(resultArray[i] + ", ");
                 }
             }
             else
